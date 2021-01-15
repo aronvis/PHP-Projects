@@ -1,0 +1,2 @@
+# Mail Carrier Review Tracker
+Tracks the performance of each USPS mail carrier by linking delivery reviews to mail carriers using the delivery date and address. Each delivery address gets translated into a delivery route using the USPS API. Once a delivery review contains a valid delivery route and date, it gets mapped to a specific mail carrier using their weekly schedule and delivery routes. The frontend is written in HTML, CSS, and JavaScript, and the backend uses PHP and MySQL. 
